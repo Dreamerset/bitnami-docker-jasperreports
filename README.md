@@ -43,7 +43,7 @@ Non-root container images add an extra layer of security and are generally recom
 Learn more about the Bitnami tagging policy and the difference between rolling tags and immutable tags [in our documentation page](https://docs.bitnami.com/tutorials/understand-rolling-tags-containers/).
 
 
-- [`7`, `7-debian-10`, `7.8.1`, `7.8.1-debian-10-r62`, `latest` (7/debian-10/Dockerfile)](https://github.com/bitnami/bitnami-docker-jasperreports/blob/7.8.1-debian-10-r62/7/debian-10/Dockerfile)
+- [`7`, `7-debian-10`, `7.8.1`, `7.8.1-debian-10-r64`, `latest` (7/debian-10/Dockerfile)](https://github.com/bitnami/bitnami-docker-jasperreports/blob/7.8.1-debian-10-r64/7/debian-10/Dockerfile)
 
 Subscribe to project updates by watching the [bitnami/jasperreports GitHub repo](https://github.com/bitnami/bitnami-docker-jasperreports).
 
@@ -263,7 +263,7 @@ To configure JasperReports to send email using SMTP you can set the following en
 
 ##### JasperReports base URL configuration
 
-- `JASPERREPORTS_ROOT_URL`: JasperReports application default URL. Default: **false** at http://example.com/jasperserver. http://example.com/ if **true**.
+- `JASPERREPORTS_USE_ROOT_URL`: JasperReports application default URL. Default: **false** at http://example.com/jasperserver. http://example.com/ if **true**.
 
 #### Examples
 
